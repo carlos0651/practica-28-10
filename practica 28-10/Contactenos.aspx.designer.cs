@@ -11,7 +11,7 @@ namespace practica_28_10
 {
 
 
-    public partial class _default
+    public partial class Contactenos
     {
     }
 }
