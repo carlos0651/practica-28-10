@@ -8,7 +8,7 @@
     <link rel="shurtcut icon" href="img/favicon.ico" />
     <title>Hola!</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" / >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     
     <link rel="stylesheet" href="css/styles.css" />
@@ -23,24 +23,26 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link active" aria-current="page" href="default.aspx">Inicio</a>
+                    <a class="nav-link" href="Informacion.html">Informacion</a>
+                    <a class="nav-link" href="Contactenos.aspx">Contactenos</a>
                   </div>
                 </div>
               </div>
             </nav>
-            <ul>
-                        <li><a href="default.aspx">Inicio</a></li>
-                        <li><a href="Informacion.html">Informacion</a></li>
-                        <li><a href="Contactenos.aspx">Contactenos</a></li>
-            </ul>
 
 
 
-            <img src="..." class="img-Imagenjpg" alt="...">
+            <img src="download.jpg" class="img-fluid" alt="..."/>
 
+
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-danger">Left</button>
+  <button type="button" class="btn btn-warning">Middle</button>
+  <button type="button" class="btn btn-success">Right</button>
+</div>
+
+           
 
 
             <div class="accordion" id="accordionExample">
@@ -82,5 +84,22 @@
   </div>
 </div>
 
+
+            <p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    Toggle width collapse
+  </button>
+</p>
+<div style="min-height: 120px;">
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="card card-body" style="width: 300px;">
+      This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+    </div>
+  </div>
+</div>
+
+
+
+            
         </body>
 </html>

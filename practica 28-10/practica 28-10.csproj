@@ -70,8 +70,8 @@
     <Content Include="Contactenos.aspx" />
     <Content Include="css\styles.css" />
     <Content Include="default.aspx" />
+    <Content Include="img\download.jpg" />
     <Content Include="img\favicon.ico" />
-    <Content Include="img\Imagen.jpg" />
     <Content Include="Informacion.html" />
     <Content Include="js\functions.js" />
     <Content Include="Web.config" />
